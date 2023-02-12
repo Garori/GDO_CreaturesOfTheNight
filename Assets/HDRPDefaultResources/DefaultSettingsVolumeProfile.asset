@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   quality:
     m_OverrideState: 1
     m_Value: 1
@@ -59,6 +60,7 @@ MonoBehaviour:
   m_Name: ContactShadows
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: Contact Shadows
   quality:
     m_OverrideState: 0
     m_Value: 1
@@ -94,7 +96,7 @@ MonoBehaviour:
     m_Value: 0.15
   m_SampleCount:
     m_OverrideState: 0
-    m_Value: 8
+    m_Value: 10
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,16 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
   m_Name: DefaultSettingsVolumeProfile
   m_EditorClassIdentifier: 
-  components:
-  - {fileID: 7686318427622180703}
-  - {fileID: -1016694868962581565}
-  - {fileID: 7502528774814404555}
-  - {fileID: 7542669330009093999}
-  - {fileID: 1501199423866068322}
-  - {fileID: 5315503232242033309}
-  - {fileID: 1932259527246508038}
-  - {fileID: 448115243408767295}
-  - {fileID: -7089757308646879465}
+  components: []
 --- !u!114 &448115243408767295
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -130,6 +123,7 @@ MonoBehaviour:
   m_Name: HDRISky
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   rotation:
     m_OverrideState: 0
     m_Value: 0
@@ -143,10 +137,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   upperHemisphereLuxValue:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.4660715
   upperHemisphereLuxColor:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 0.18750614, y: 0.29181972, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
@@ -215,7 +209,11 @@ MonoBehaviour:
     m_Value: 0
   shadowTint:
     m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_Value:
+      r: 0.5
+      g: 0.5
+      b: 0.5
+      a: 1
   pointLightShadow:
     m_OverrideState: 0
     m_Value: 0
@@ -251,6 +249,7 @@ MonoBehaviour:
   m_Name: Bloom
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   quality:
     m_OverrideState: 1
     m_Value: 1
@@ -265,7 +264,11 @@ MonoBehaviour:
     m_Value: 0.7
   tint:
     m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -297,6 +300,7 @@ MonoBehaviour:
   m_Name: VisualEnvironment
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   skyType:
     m_OverrideState: 1
     m_Value: 1
@@ -328,6 +332,7 @@ MonoBehaviour:
   m_Name: Exposure
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   mode:
     m_OverrideState: 1
     m_Value: 1
@@ -352,10 +357,8 @@ MonoBehaviour:
   curveMap:
     m_OverrideState: 0
     m_Value:
-      serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: -10
+      - time: -10
         value: -10
         inSlope: 0
         outSlope: 1
@@ -363,8 +366,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 20
+      - time: 20
         value: 20
         inSlope: 1
         outSlope: 0
@@ -378,10 +380,8 @@ MonoBehaviour:
   limitMinCurveMap:
     m_OverrideState: 0
     m_Value:
-      serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: -10
+      - time: -10
         value: -12
         inSlope: 0
         outSlope: 1
@@ -389,8 +389,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 20
+      - time: 20
         value: 18
         inSlope: 1
         outSlope: 0
@@ -404,10 +403,8 @@ MonoBehaviour:
   limitMaxCurveMap:
     m_OverrideState: 0
     m_Value:
-      serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: -10
+      - time: -10
         value: -8
         inSlope: 0
         outSlope: 1
@@ -415,8 +412,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 20
+      - time: 20
         value: 22
         inSlope: 1
         outSlope: 0
@@ -479,6 +475,7 @@ MonoBehaviour:
   m_Name: AmbientOcclusion
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   quality:
     m_OverrideState: 0
     m_Value: 1
@@ -509,7 +506,6 @@ MonoBehaviour:
   layerMask:
     m_OverrideState: 0
     m_Value:
-      serializedVersion: 2
       m_Bits: 4294967295
   occluderMotionRejection:
     m_OverrideState: 0
@@ -525,10 +521,10 @@ MonoBehaviour:
     m_Value: 0
   m_MaximumRadiusInPixels:
     m_OverrideState: 0
-    m_Value: 32
+    m_Value: 40
   m_BilateralUpsample:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   m_DirectionCount:
     m_OverrideState: 0
     m_Value: 2
@@ -557,6 +553,7 @@ MonoBehaviour:
   m_Name: Tonemapping
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   mode:
     m_OverrideState: 1
     m_Value: 2
@@ -597,6 +594,16 @@ MonoBehaviour:
   m_Name: HDShadowSettings
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: Shadows
+  m_CascadeShadowSplits:
+  - 0
+  - 0
+  - 0
+  m_CascadeShadowBorders:
+  - 0
+  - 0
+  - 0
+  - 0
   maxShadowDistance:
     m_OverrideState: 1
     m_Value: 150
@@ -609,21 +616,35 @@ MonoBehaviour:
   cascadeShadowSplit0:
     m_OverrideState: 0
     m_Value: 0.05
+    normalized: 0
+    minCascadeToAppears: 2
   cascadeShadowSplit1:
     m_OverrideState: 0
     m_Value: 0.15
+    normalized: 0
+    minCascadeToAppears: 3
   cascadeShadowSplit2:
     m_OverrideState: 0
     m_Value: 0.3
+    normalized: 0
+    minCascadeToAppears: 4
   cascadeShadowBorder0:
     m_OverrideState: 1
     m_Value: 0.13333334
+    normalized: 0
+    minCascadeToAppears: 1
   cascadeShadowBorder1:
     m_OverrideState: 1
     m_Value: 0.06666666
+    normalized: 0
+    minCascadeToAppears: 2
   cascadeShadowBorder2:
     m_OverrideState: 0
     m_Value: 0
+    normalized: 0
+    minCascadeToAppears: 3
   cascadeShadowBorder3:
     m_OverrideState: 0
     m_Value: 0
+    normalized: 0
+    minCascadeToAppears: 4
