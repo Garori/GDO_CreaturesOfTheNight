@@ -202,7 +202,7 @@
     },
     "com.unity.probuilder": {
       "version": "5.0.6",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.settings-manager": "1.0.3",
